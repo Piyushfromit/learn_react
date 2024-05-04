@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="App">
       
-        <p>
+        <hi>
           Hi I am Piyush
-        </p>
+        </hi>
       
     </div>
   );

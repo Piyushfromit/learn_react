@@ -42,13 +42,14 @@ createRoot(document.getElementById('root')).render(
 //     anotherElement
 // )
 
+ const userName2 = "Hi i am Piyush!";
 
-
-// const reactElement = React.createElement(
-//   'a',
-//   { href: 'https://google.com', target: '_blank' },
-//   'click me to visit google'
-// )
+const reactElement = React.createElement(
+  'a',
+  { href: 'https://google.com', target: '_blank' },
+  'click me to visit google',
+  userName2
+)
 
 // createRoot(document.getElementById('root')).render(
 //   reactElement

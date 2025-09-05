@@ -9,12 +9,17 @@ function App() {
 
   const addValue = () => {
     setCounter(counter + 1)
-    console.log("Clicked", counter + 1);
+
+
+     setCounter(precounter => precounter + 1)
+    // setCounter(precounter => precounter + 2)
+    // setCounter(precounter => precounter + 1)
+    
   }
 
   const removeValue = () => {
     setCounter(counter - 1)
-    console.log("Clicked", counter - 1);
+    ;
   }
 
   return (

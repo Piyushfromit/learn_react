@@ -7,7 +7,7 @@ import { ThemeProvider } from './contexts/Theme'
 
 function App() {
 
-  const [themeMode, setThemeMode] = useState("lihjt")
+  const [themeMode, setThemeMode] = useState("light")
 
   const lightTheme = () => {
     setThemeMode("light")
